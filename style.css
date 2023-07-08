@@ -7,6 +7,9 @@ main {
   max-width: 1140px;
   margin: 0 auto;
 }
+main section{
+    margin-top: 130px;
+}
 /* nav related style */
 .nav-bar {
   display: flex;
@@ -155,4 +158,39 @@ nav a {
   font-weight: 400;
   line-height: 28px;
 }
+/* resume related style */
+.resume-container{
+    display: flex;
+    gap: 80px;
+}
+.resume-title{
+    color: #474747;
+font-size: 30px;
+font-weight: 700;
+padding-bottom: 30px;
+}
+.department , .designation{
+    color: #474747;
+font-size: 22px;
+font-weight: 700;
+}
+.company , .university{
+    color: #757575;
+    font-size: 18px;
+    font-weight: 600;
+}
+.description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 25px;
+}
+.resume-details{
+    line-height: 15px;
+}
+.resume-button{
+     text-align: center;
+     padding: 40px;
+}
+
 
