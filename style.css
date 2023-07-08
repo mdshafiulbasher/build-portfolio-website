@@ -1,91 +1,158 @@
 /* common shared style */
-body{
-    font-family: 'Lato' , sans-serif;
-    font-family: 'Open Sans regular', sans-serif;
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Open Sans regular", sans-serif;
+}
+main {
+  max-width: 1140px;
+  margin: 0 auto;
 }
 /* nav related style */
-.nav-bar{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 150px;
+.nav-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 150px;
 }
-.logo{
-    color: #181818;
-    font-size: 45px;
-    font-weight: 800;
+.logo {
+  color: #181818;
+  font-size: 45px;
+  font-weight: 800;
 }
-.text-primary{
-    color: #FD6E0A;
+.text-primary {
+  color: #fd6e0a;
 }
-nav>ul{
-    display: flex;
-    align-items: center;
+nav > ul {
+  display: flex;
+  align-items: center;
 }
-nav li{
-    list-style: none;
-    margin-right: 50px;
-    
+nav li {
+  list-style: none;
+  margin-right: 50px;
 }
-nav a{
-    text-decoration: none;
-    color: #474747;
-    font-size: 20px;
-    font-weight: 400px;
-    
+nav a {
+  text-decoration: none;
+  color: #474747;
+  font-size: 20px;
+  font-weight: 400px;
 }
-.btn-primary{
-    background-color: #FD6E0A;
-    border: none;
-    border-radius: 5px;
-    padding: 15px 35px;
-    color: white;
-    font-size: 20px;
-    font-weight: 700;
-
+.btn-primary {
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 5px;
+  padding: 15px 35px;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
 }
 /* header related style */
-.header{
-    background-color: #FFF8F3;
-    background-image: url(./webdeveloper-portfolio/images/header_bg.png);
-    background-repeat: no-repeat;
-    background-position-x: right;
-    background-position-y: bottom;
+.header {
+  background-color: #fff8f3;
+  background-image: url(./webdeveloper-portfolio/images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
-.banner{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-left: 150px;
-    padding-right: 30px;
-    
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 150px;
+  padding-right: 30px;
 }
-.banner-content{
-    max-width: 500px;
-    line-height: 30px;
+.banner-content {
+  max-width: 500px;
+  line-height: 30px;
 }
-.profile-pic{
-    width: 500px;
+.profile-pic {
+  width: 500px;
 }
-.btn-custom{
-    border: 1px solid #FD6E0A;
-    border-radius: 5px;
-    color: #FD6E0A;
-    padding: 15px 35px;
-    background: none;   
+.btn-custom {
+  border: 1px solid #fd6e0a;
+  border-radius: 5px;
+  color: #fd6e0a;
+  padding: 15px 35px;
+  background: none;
+  margin: 30px;
 }
-.banner-greeting{
-    color: #474747;
-    font-size: 45px;
-    font-weight: 600;
+.banner-greeting {
+  color: #474747;
+  font-size: 45px;
+  font-weight: 600;
 }
-.banner-title{
-    color: #181818;
-    font-size: 85px;
-    font-weight: 700;
+.banner-title {
+  color: #181818;
+  font-size: 85px;
+  font-weight: 700;
 }
-.banner-discript{
-    color: #757575;
-    font-size: 16px;
+.banner-discript {
+  color: #757575;
+  font-size: 16px;
+}
+/* About Section related style */
+.about {
+  background-color: #fff8f3;
+  margin: 130px 0px;
+  padding: 130px 150px;
+}
+.section-title {
+  color: #181818;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 700;
+}
+.section-description {
+  color: #757575;
+  text-align: center;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+.about-info-container {
+  display: flex;
+  justify-content: space-around;
+}
+.about-info {
+  line-height: 5px;
+  text-align: center;
+}
+.info-title {
+  color: #757575;
+  font-size: 18px;
+  font-weight: 400;
+}
+.info-description {
+  color: #474747;
+  font-size: 20px;
+  font-weight: 600;
+}
+#what-i-do {
+  padding: 25px 200px;
+}
+.skill-container {
+  display: flex;
+  justify-content: space-around;
+}
+.skill {
+  border: none;
+  border-radius: 5px;
+  background: #fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+  text-align: start;
+  padding: 40px;
+}
+.skill-title {
+  color: #181818;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.skill-description {
+  color: #757575;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
 
-}
